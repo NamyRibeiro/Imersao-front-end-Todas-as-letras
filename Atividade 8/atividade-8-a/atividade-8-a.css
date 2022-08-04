@@ -1,0 +1,76 @@
+/* 
+O padding do header está incorreto. Vamos usar 40px.
+A cor de fundo precisa ir no main e no aside.*/
+
+
+body{
+    background-color: #F3F3F3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #2D0064;
+    padding: 40px;
+
+}
+
+.titulo {
+    color:#FFFFFF;
+    margin-bottom: 40px;
+    Size: 40px;
+    font-weight: 700;
+}
+
+.menu-itens .menu-item a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu-itens {
+    display:flex;
+    color: #FFFFFF;
+    list-style: none;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: flex;
+    }
+
+
+.box {
+    display: flex;
+    padding: 40px;
+    column-gap: 40px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.section1 {
+    padding: 20px;
+}
+
+.section2 {
+    padding: 40px;
+    
+}
+
+
+.footer {
+    background-color: #4D03A8;
+    padding: 40px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+main , aside {
+    background-color: #FFFFFF;
+    
+}

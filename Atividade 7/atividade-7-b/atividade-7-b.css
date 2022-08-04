@@ -1,0 +1,77 @@
+/*Ficou faltando padding no header.
+Os itens de formulário (inputs e botões) precisam estar dentro de uma tag form para ser feita a validação.
+Os itens de formulário não precisam de margins laterais. Apenas vamos usar margin inferior para separar os elementos.*/
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+
+}
+
+.titulo {
+    background-color: #191919;
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+header {
+    padding: 40px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Inter';
+    font-style: normal; 
+}
+
+
+.input-texto {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #5C8CFF;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+ }
+
+ .legenda {
+    font-family: 'Inter';
+ }
+
+ .button-enviar {
+    background-color: #FFD702;
+    border-color: #FF9F2E;
+    border-style: solid;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 3px;
+ }
+
+.footer {
+    background-color:  #5C8CFF;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding: 40px;
+    font-size: 12px;
+}
+
+.section {
+    margin: 0px;
+    padding: 40px;
+}
+
+.div-pai {
+    margin-bottom: 20px;
+}

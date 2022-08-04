@@ -1,0 +1,133 @@
+<!-- 
+    Requisitos:
+
+O CSS precisa ser externo;
+Adicione as classes necessárias;
+Cores utilizadas: #2f117f, #ffffff, #6126ff, #000000, #f1d703;
+Fonte utilizada: Lato com 400 de font-weight para textos, 700 para os botões e 900 para títulos;
+Paddings de 20px quando necessário, exceto botões, inputs e itens de menu que possuem padding de 10px;
+Margins de 20px quando houverem;
+Paragráfos com 16px, spans com 12px, botões com 15px, legendas e inputs com 14px, título primário e secundário com 30px de font-size;
+Border-radius de 5px quando houver;
+Inputs tem 2px de borda;
+Os botões devem ter cursor do tipo pointer;
+Coloque no arquivo atividade-7-a.html.
+
+Confira os espaçamentos corretos na descrição do exercício. O header, section e footer estão com padddings incorretos.
+O main não possui estilo.
+O segundo título precisa de classe e não possui margin superior. O padding do section já cria o espaçamento.
+O parágrafo precisa de uma classe.
+O footer precisa de uma classe e não possue margin.
+A cor do fundo do botão enviar está incorreta.
+Os botões não possuem margin.
+O select está com a cor de borda incorreta.
+O ul e li estão com o mesmo nome de classes. Essas classes precisam ser diferentes, pois possuem diferentes estilos.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 7</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h1 class="titulo1"> Todas as Letras Escola</h1>
+    <nav class="menu">
+      <ul class="menu-itens">
+        <li class="menu-item">
+          <a class="menu-link" href="#">Home</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="#">Sobre</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="#">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="section">
+      <h2 class="titulo2">Inscreva-se</h2>
+      <p class="paragrafo">Preencha todos os campos abaixo. Todos campos são obrigatórios:</p>
+      <form>
+        <div>
+          <label class="legenda" for="nome">Nome:</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Seu primeiro nome"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label class="legenda" for="sobrenome">Sobrenome:</label>
+          <input
+            type="text"
+            name="sobrenome"
+            id="sobrenome"
+            placeholder="Seu sobrenome"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label class="legenda" for="email">E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="seuemail@seuprovedor.com"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label class="legenda" for="senha">Senha:</label>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            placeholder="Sua senha"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label class="legenda" for="idade">Idade:</label>
+          <input
+            type="number"
+            name="idade"
+            id="idade"
+            placeholder="Sua idade"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label class="legenda" for="categoria">Selecione uma categoria:</label>
+          <select class="select" name="categoria" id="categoria" required>
+            <option class="select" disabled selected>Selecione uma opção</option>
+            <option value="a">Categoria A</option>
+            <option value="b">Categoria B</option>
+          </select>
+        </div>
+        <div>
+          <button class="button-enviar">Enviar</button>
+          <button class="button-reset" type="reset">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Todos os direitos reservados.</span>
+  </footer>
+</body>
+</html>

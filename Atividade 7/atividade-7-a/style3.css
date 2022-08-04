@@ -1,0 +1,118 @@
+/*
+O footer possui 20px ao invés de 10px.
+O ul não vai ter padding, mas sim os li.
+O h1 e h2 precisam de margin superior zeradas. */
+
+body {
+   font-family: "Lato";
+   margin: 0;
+   padding: 0;
+}
+
+.header {
+   background-color: #2f117f;
+   padding: 20px;
+   margin: 0px;
+
+}
+
+.titulo1 {
+   color: #ffffff;
+   margin-top: 0;
+   
+}
+
+.titulo2 {
+   margin-top: 0;
+
+}
+
+
+.menu {
+   background-color: #6126ff;
+   width: 100px;
+}
+
+.menu-itens {
+   text-decoration: none;
+   list-style: none ;
+   padding: 0;
+}
+
+.menu-item {
+   padding: 10px;
+}
+
+.menu-link {
+   color: #ffffff;
+   text-decoration: none;
+}
+
+
+
+.input-texto {
+   border-width: 2px;
+   border-style: solid;
+   border-color: #6126ff;
+   margin: 10px;
+   padding: 10px;
+   font-size: 14px;
+   border-radius: 5px
+}
+
+.select {
+   border-width: 2px;
+   border-style: solid;
+   border-color: #6126ff;
+   border-radius: 5px;
+   margin: 5px;
+   padding: 10px;
+}
+
+.button-enviar {
+   background-color: #6126ff;
+   color: #f1d703;
+   padding: 10px;
+   font-weight: 700;
+   font-size: 15px;
+   cursor: pointer;
+   border: none;
+   border-radius: 5px
+}
+
+.button-reset {
+   background-color: #f1d703;
+   color: #6126ff;
+   padding: 10px;
+   font-weight: 700;
+   font-size: 15px;
+   cursor: pointer;
+   border: none;
+   border-radius: 5px
+}
+
+
+p {
+   font-size: 16px;
+   font-weight: 400;
+}
+
+span {
+   font-size: 12px;
+}
+
+.footer {
+   background-color: #6126ff;
+   color: #ffffff;
+   padding: 20px;
+   font-weight: 400;
+   
+}
+
+.legenda {
+   font-size: 14;
+}
+
+.section {
+   padding:20px;
+}
